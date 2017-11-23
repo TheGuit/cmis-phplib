@@ -736,12 +736,8 @@ xmlns:cmisra="http://docs.oasis-open.org/ns/cmis/restatom/200908/">
 		ob_start();
 ?>
 		<cmisra:content>
-			<cmisra:mediatype>
-				{content_type}
-			</cmisra:mediatype>
-			<cmisra:base64>
-				{content}
-			</cmisra:base64>
+			<cmisra:mediatype>{content_type}</cmisra:mediatype>
+			<cmisra:base64>{content}</cmisra:base64>
 		</cmisra:content>
 <?php
 
